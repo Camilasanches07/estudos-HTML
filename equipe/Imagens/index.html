@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é meu primeiro site">
+    <meta name="keywords" content="programação,html,css,javascript">
+    <meta name="author" content="Camila Sanches Ferreira">
+    <title>Meu primeiro site</title>
+</head>
+<body>
+    <h1>Conteúdo HTML</h1>
+    <p>As tags de H1 até H5 são Cabeçalhos, o H1 é usado somente 1 vez!</p>
+    <p>A tag "p" no HTML é usada para construir parágrafos</p>
+    <p>A tag "strong" é utilizada para dar ênfase, deixar em <strong>NEGRITO</strong></p>
+    <p>A tag "b" tamém é utilizada para deixar uma palavra em <b>NEGRITO</b></p>
+    <p>A tag "del" é utilizada para "deletar" algo, aparece um <del>RISCADO</del> </p>
+    <p>A tag "hr" é utilizada para adicionar uma linha, como está em baixo de exemplo</p>
+    <hr>
+    <p>a tag "i" é para deixar a palavra em <i>ITÁLICO</i></p>
+    <p>A tag "u" é para traçar uma <u>LINHA</u> em baixo da palavra</p> 
+    <p>A tag "br" é utilizada para <br>PULAR linha</p>
+    <p>A tag "small" é utilizada para deixar a palavra <small>pequena</small></p>
+    <p>A tag "sup" é utilizada para escrever em <sup>cima</sup> da palavra</p>
+    <p>A tag "sub" é utilizada para escrever em <sub>baixo</sub> da palavra</p>
+    <p>A tag"mark" é utilizada para <mark>marcar</mark> alguma palavra</p>
+    <p><hr></p>
+    <h2><b>Elementos de Citação</b></h2>
+    <p></p>Utilizamos "abbr" para explicação de abreveações, exemplo: <abbr title="Hyper text markup language">HTML</abbr></p>
+    <p>Utilizamos "address" para, por exemplo, endereços. Ex: <address>Rua Francisco Aureliano Paiva, 720, Campos Eliseos</address></p>
+    <p>Para citar livros, filmes, obras, utilizamos "cite". Ex: Filme <cite>Titanic</cite> com Leonardo Di Caprio</p>
+    <p>Utilizamos a tag "q" para quando pegamos a fala de alguem. Ex: Ele falou <q>Gosto muito de estar com você</q></p>
+    <p>Utilizamos "blockquote" para destacar algo. Ex: Ela disse que gostava muito dele e <blockquote>estava apaixonada</blockquote></p>
+    <p>A tag "bdo dir" é utilizada para escolher a direção que queremos o texto. Ex: <bdo dir="rtl">Camila</bdo></p>
+    <hr>
+
+    <H2>Comentários</H2>
+    <p>Utiliza-se "!--" para fazer um comentário no código (exemplo no código)</p>
+    <!--Comentário-->
+    <p>Existe um atalho para comentar textos = Ctrl+K+C , tem que apertar ráido</p>
+    <h2>Links</h2>
+     <!--LINK ABSOLUTO-->
+    <p>Utilizamos a tag "a href="link do site" Ex: <a href="https://google.com">Ir para o Google</a></p>
+    <p>Utilizamos a tag "a href="link do site"target="_blank"" para abrir o link em uma nova guia Ex:<a href="https://google.com"target="_blank">Ir para o Google</a></p>
+    <!--LINK RELATIVO-->
+    <p>Para ir em alguma página alternativa do site, basta indicar o nome do arquivo da página "a href="sobre.html" exemplo: <a href="sobre.html">Sobre Nós</a></p>
+    <p>Para navegar em um arquivo de uma pasta, exemplo que criei "equipes", basta digitar "a href="Nome da pasta/nome do arquivo. Ex:<a href="equipe/camila.html">Camila</a></p>
+    <p>Para voltar da página "Camila" para essa principal, deve escrever "a href="../nome do arquivo de deseja"</p>
+    <p>Para voltar 2 pastas para trás , use a estrutura "a href="../../nome do arquivo de deseja"</p>
+    <hr>
+
+    <h2>Imagens</h2>
+    <p>Para adicionar imagens utilize a tag "img src="", src=caminho da imagem, não precisa de fechamento de tag, para diminuir o tamanho uitilize "width" e "height". "alt" é utilizado para descrever a imagem</p>
+    <p>Para clicar nessa foto dos cachorros e ser direcionado para alguma página específica, basta mandar o link igual o exemplo a baixo</p>
+    <a href="equipe/camila.html"><img src="https://web.archive.org/web/20190714110459im_/http://cachorrosfofos.com.br/wp-content/uploads/2014/04/racas-filhotes-de-cachorros-mais-fofos-golden-retriever.jpg" width="300" height="300" alt="Cachorrinho Golden"></a>
+    <p>Para adicionar uma imagem que esteja salvo no seu computador, "img src="nome da pasta / nome da foto</p>
+    <img src="Imagens/Natureza.jpg"width="300">
+    <p>Para reduzir o tamanho das imagens e deixar o site mais e=leve, entre em sites como tinyipg, easy resize, para redimensionar as imagens e deixae mais leve</p>
+    <br>
+    <p>Para adicionar imagens "png" , faça o mesmo caminho. Site photopea é para criar imagens png</p>
+    <img src="Imagens/coração.png">
+    <br>
+    <p>Para adiconar gifs basta seguir o mesmo caminho das outras imagens</p>
+    <img src="https://gifdb.com/images/high/winking-animated-bear-5ggusjylzd25nk5r.gif">
+
+    <h2>Tabelas</h2>
+    <p>Utilizamos a tag "table" para criar tabelas. A tag "tr" é utilizada para fazer uma linha.A tag "th" é para títulos de colunas. Para colocar conteúdos dentro da tabela use "td"</p>
+    <p>Utilizamos "border" para adicionar bordas na tabela</p>
+    <table width="100%" border="1" style="text-align: center;">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Peso</th>
+            <th>Linguagem</th>
+        </tr>
+        <tr>
+            <td>Camila</td>
+            <td>20</td>
+            <td>70kg</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>29</td>
+            <td>105kg</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>Roberta</td>
+            <td>18</td>
+            <td>55kg</td>
+            <td>Python</td>
+        </tr>
+    </table>
+    <br>
+    <h2>Listas Nâo Ordenadas</h2>
+    <p>Para criar listas não ordenadas, usar tag "ul". Dentro da "ul" usar "li", itens da lista</p>
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ul>
+    <p>Para criar uma lista ordenada (em ordem), utilize a tag "ol"</p>
+    <ol>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ol>
+    <h2>Iframes</h2>
+    <p>Iframe é para adicionar outras páginas ou sites na sua página</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/448sdzWsnMs?si=qjKiPxlkejeB4c_J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    
+
+</body>
+</html>
