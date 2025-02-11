@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário Aqui</h1>
+
+    <p>tag "input não tem fechamento (/input)" </p>
+    <p>Utilizamos " placeholder" para dizer ao usuário o que fazer. Ex:Digite seu nome aqui</p>
+    <p>Utilizamos " label" para dizer ao usuário o que é aquele campo. Ex: Nome</p>
+    <p>Utilizamos dentro do input o "id=nome do campo" para especificar que a legenda "Nome" está relacionada ao campo de input do tipo texto</p>
+    <p>Utilizamos o type "password" para digitarmos senha, assim, quando digitarmos sairá com o campo escondido</p>
+    <p>Utilizamos o type "email" para solicitarmos o email do usuário </p>
+    <p>Utilizamos o type "submit" para enviarmos o Formulário </p>
+    <p>Utilizamos "required" para que a pessoa preencha todos os campos, sendo impossível enviar o formulário sem ter preenchido </p>
+    <p>Utilizamos o type "radio" para ter como marcar somente uma opção</p>
+    <p>Utilizamos o type "checkbox" para ter como marcar mais de uma opção</p>
+    <p>Utilizamos o type "select" para dar múltiplas escolhas ao usuário</p>
+    <p>Utilizamos "textarea" para o usuário escrever um texto, e "rows" para definir quantas letras poderá ser escritas, "rows" para número de colunas </p>
+    <form>
+
+    <form>
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br> <br>
+
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+
+        <br><br>
+
+        <label for="campo_email">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui"required>
+
+        <br><br>
+
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email aqui" required>
+
+        <br><br>
+        <h2>Animal de Estimação</h2>
+        <input type="radio" name="animal" value="Cachorro" id="dog" required>
+        <label for="dog">Cachorro</label>
+        <br><br>
+        <input type="radio" name="animal" value="gato" id="cat" required>
+        <label for="cat">Gato</label>
+        <br><br>
+        <input type="radio" name="animal" value="passáro" id="bird" required>
+        <label for="bird">Pássaro</label>
+        <br><br>
+        
+        <h2>O que você tem em casa ?</h2>
+
+        <input id="item1" type="checkbox" name="item1" value="TV" >
+        <label for="item1">TV</label><br><br>
+
+        <input id="item2" type="checkbox" name="item2" value="Geladeira" >
+        <label for="item2">Geladeira</label><br><br>
+
+        <input id="item3" type="checkbox" name="item3" value="computador" >
+        <label for="item3">Computador</label><br><br>
+   
+        <h2>Escolha uma cor: </h2>
+        <select name="cores">
+            <option selected disabled ="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar Formulário" required>
+        <br><br>
+
+        <h2>Digite sua mensagem: </h2><br>
+        <textarea name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="35"></textarea><br><br>
+
+    </form><hr><br>
+    <a href="index.html">Voltar a página principal</a><br>
+    
+
+</body>
+</html>
